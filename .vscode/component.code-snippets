@@ -1,0 +1,22 @@
+{
+  "init Component": {
+    "scope": "vue",
+    "prefix": "c",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "const props = defineProps({",
+      "  // value: {",
+      "  //   type: String,",
+      "  //   default: ''",
+      "  // }",
+      "});",
+      "console.log(props);",
+      "</script>\n",
+      "<template>",
+      "  <view>$1</view>",
+      "</template>\n",
+      "<style scoped lang=\"scss\"></style>\n"
+    ],
+    "description": "组件模板"
+  }
+}
